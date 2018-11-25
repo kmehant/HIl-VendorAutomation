@@ -57,7 +57,7 @@
       </tr>
     </thead>
  <?php
- $db=  mysqli_connect('localhost','id6788380_vijay','vijay123','id6788380_loginform');
+ $db=  mysqli_connect('localhost','','','');
      $sql = 'SELECT * FROM vendordetails';
      $result = mysqli_query($db,$sql);
 
