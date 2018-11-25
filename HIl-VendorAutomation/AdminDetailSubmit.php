@@ -26,7 +26,7 @@
   
    if (isset($_POST['submit'])) 
    {
-      $db = mysqli_connect('localhost','id6788380_vijay','vijay123','id6788380_loginform');
+      $db = mysqli_connect('localhost','','','');
       $quant = $_POST['quantity'];
       $sql = sprintf("INSERT INTO loginform (item,quantity,specification,location,date) VALUES ('%s','$quant','%s','%s','%s')", mysqli_real_escape_string($db,$_POST['item']),mysqli_real_escape_string($db,$_POST['spec']),mysqli_real_escape_string($db,$_POST['loc']),mysqli_real_escape_string($db,$_POST['date2']));
       mysqli_query($db,$sql);
