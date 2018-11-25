@@ -24,7 +24,7 @@
   if(isset($_GET['id'])){
     $name = $_GET['id'];
     $color = "white";
-    $db = mysqli_connect('localhost','id6788380_vijay','vijay123','id6788380_loginform');
+    $db = mysqli_connect('localhost','','','');
   
     $query = "SELECT * FROM loginform WHERE id=$name ";
     $result = mysqli_query($db,$query);
