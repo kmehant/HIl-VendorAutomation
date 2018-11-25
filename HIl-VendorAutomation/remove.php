@@ -19,7 +19,7 @@
 <?php 
   if(isset($_GET['id'])){
     $name = $_GET['id'];
-  $db = mysqli_connect('localhost','id6788380_vijay','vijay123','id6788380_loginform');
+  $db = mysqli_connect('localhost','','','');
   $sql = " DELETE FROM vendordetails where id=$name ";
   mysqli_query($db,$sql);
   $alert = "alert alert-success";
