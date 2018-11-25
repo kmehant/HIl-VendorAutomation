@@ -38,7 +38,7 @@
  $msg = "<center><h4 color= $colr>Please scroll vertical to find the button</h4></center>";
  $warn = "<center><h4 color=$colr>No requirement for now, please come back later, Thank you!</h4></center>";
  
- $db=  mysqli_connect('localhost','id6788380_vijay','vijay123','id6788380_loginform');
+ $db=  mysqli_connect('localhost','','','');
      $sql = 'SELECT * FROM loginform';
      $result = mysqli_query($db,$sql);
      
