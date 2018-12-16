@@ -10,3 +10,5 @@ Your contributions are always welcomed to the repo.
 ## TECHNOLOGIES USED
 * PHP and MySQL for back-end
 * HTML, CSS and Bootstrap for front-end
+
+> Made with love by Mehant
